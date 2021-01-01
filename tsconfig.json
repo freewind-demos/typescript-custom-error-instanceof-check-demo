@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "strict": true,
-    "target": "es6",
+    // Note the issue only exist in "es5"
+    "target": "es5",
     "module": "commonjs",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true
